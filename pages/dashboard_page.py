@@ -4,9 +4,7 @@ from config.links import Links
 from selenium.webdriver.support import expected_conditions as EC
 
 
-
 class DashboardPage(BasePage):
-
     PAGE_URL = Links.DUSHBOARD_PAGE
 
     MY_INFO_BUTTON = ("xpath", "//span[text()='My Info']")
